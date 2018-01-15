@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/playTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ballo Bounce"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/playVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playTitle"
+        android:text="Happiness: 40"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+
+    <view class="edu.uw.nzkwgo.ballo.DrawingSurfaceView"
+        android:id="@+id/drawingView"
+        android:layout_width="match_parent"
+        android:layout_height="360sp"
+        android:layout_below="@id/playVal"
+        android:layout_marginTop="5sp"
+        />
+
+
+    <TextView
+        android:id="@+id/playInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drawingView"
+        android:layout_marginTop="10sp"
+        android:text="Ballo likes to bounce! Bounce the\n phone to cheer him up!"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100sp"
+        android:layout_marginLeft="100sp"
+        android:layout_below="@id/playInstructions"
+        android:text="Home"
+        />
+
+</RelativeLayout>

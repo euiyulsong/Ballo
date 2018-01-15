@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_leader_board"
+        android:title="Leaderboard"
+        />
+
+    <item
+        android:id="@+id/item_stats"
+        android:title="Stats"
+        />
+
+    <item
+        android:id="@+id/item_settings"
+        android:title="Settings"
+        />
+</menu>

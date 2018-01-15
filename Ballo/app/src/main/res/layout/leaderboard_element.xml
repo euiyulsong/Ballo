@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/leaderboard_element_spacing"
+              android:paddingRight="@dimen/leaderboard_element_spacing"
+              android:paddingStart="@dimen/leaderboard_element_spacing"
+              android:paddingEnd="@dimen/leaderboard_element_spacing">
+
+    <TextView
+            android:text="@string/example_leaderboard_name"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/leaderboardElementName"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+    <TextView
+            android:text="@string/example_leaderboard_score"
+            android:layout_width="90dp"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:id="@+id/leaderboardElementScore"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:gravity="right"
+        />
+</LinearLayout>

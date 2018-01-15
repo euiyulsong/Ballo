@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:id="@+id/list_preference"
+        android:key="listpreference_level"
+        android:title="Pick Level"
+        android:summary="that is appropriate for your skill"
+        android:entries="@array/listentries"
+        android:entryValues="@array/listvalues"
+        />
+    <EditTextPreference
+        android:id="@+id/name_preference"
+        android:key="name_pref"
+        android:title="Change Name"
+        android:defaultValue="@string/home_name_placeholder"
+        />
+</PreferenceScreen>

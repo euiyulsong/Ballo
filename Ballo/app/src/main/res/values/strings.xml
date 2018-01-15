@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ballo</string>
+    <string name="title_activity_walk">Walk</string>
+
+    <string name="example_leaderboard_score">300,000</string>
+    <string name="example_leaderboard_name">Example Name</string>
+    <string name="leaderboard_preferences_file_key">leaderboard-preferences</string>
+    <string name="home_feed_button">Feed</string>
+    <string name="home_walk_button">Walk</string>
+    <string name="home_play_button">Play</string>
+    <string name="home_hunger_text">Hunger</string>
+    <string name="home_happiness_text">Happiness</string>
+    <string name="home_strength_text">Strength</string>
+    <string name="home_name_placeholder">Ballo</string>
+</resources>
